@@ -27,3 +27,7 @@ func main() {
 	content := string(bytes)
 	fmt.Print(content)
 }
+
+type Tour struct {
+	Name, Price string
+}
